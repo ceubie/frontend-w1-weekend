@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cole Eubanks Personal Portfolio</title>
+</head>
+
+    <body>
+
+        <section id = "top">
+        <header><h1>Welcome to my personal portfolio page</h1></header>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#resume">Resume</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#Contact">Contact</a> |
+            <a href="#Projects">Projects</a>
+        </nav>
+
+        <figure> 
+            <img src="/media/Cole_ddc-941.jpg" width= 500>
+            <figcaption><h2>Cole Eubanks: cras.ceubanks@gmail.com</h2></figcaption>
+            <figcaption><h4>Audio Engineer, and Software Engineering Student</h4></figcaption>
+        </figure>
+        <aside><em>I'm awesome and you should hire me</em></aside>
+        <hr></hr>
+        </section> 
+        
+
+        <section id="about">
+            <h2>About</h2>
+                <article>
+                    <p>
+                    I am an audio engineer, lover of all things music and sound, and an athlete. My current
+                    goal is to become a software engineer. I hope to harness my creativity to create products and techonlogies that
+                    improve people's lives and make me proud of myself. I am currrently attending Coding Temple, a tech bootcamp 
+                    that is giving me the tools to begin my journey in the tech landscape.
+                    </p>
+                    <p>
+                    At 16, I left high school to take community college classes. I then decided to pursue a trade school diploma for audio engineering.
+                    Attending the Conservatory of Recording Arts & Sciences was an amazing experience that gave me a wide range of skills related to 
+                    live, studio, film, broadcast, and game sound as well as acoustics. I spent the next 6 years in studios, live sound venues, 
+                    corporate settings, and even a nonprofit organization gaining experience and applying my audio skills. 
+                    Here is a <a href="https://open.spotify.com/track/1Wxh3QbQItRHpEwIbr4ZXp?si=acf981c36a374b8e" target="_blank">link</a> to one of
+                    the songs I worked on. I recorded, mixed, mastered, co-produced and co-wrote this one. 
+                    </p>
+                    <p>
+                    During my time working as a professional audio engineer, I found it difficult to find the work that I wanted, and maintain a consistent
+                    work schedule. This made it difficult to have a work-life balance and provide for myself. After some family medical emergencies this past
+                    year, I made the decision to switch career paths so I could give myself a better life and provide for my family. I am excited to become
+                    part of an industry where there is so much to learn, and so many possibilities. I already find myself thinking about some potential projects
+                    that could incorporate what I am learning at Coding Temple, with my background in sound and music. I think there are many applications for
+                    my specific skill set, and I strongly believe there is a niche that I can fill in this diverse tech landscape. 
+                    </p>
+                </article>
+        </section>
+        <hr></hr>
+
+        <section id = "resume"> 
+            <h2>Resume</h2>
+                <figure>
+                    <img src= "/media/Screenshot 2024-07-13 at 2.55.01 PM.png" width = 700>
+                    <img src= "/media/Screenshot 2024-07-13 at 3.02.39 PM.png" width = 700>
+                </figure>  
+        </section>
+        <hr></hr>
+
+        <section id = "skills">
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Recording</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Mixing</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Live Sound</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Backend</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Frontend</td>
+                        <td>Novice</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr></hr>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <fieldset>
+                <form action="submit">
+                    <label><input type="text" name= "name" id="name"></input> Name</label><br></br>
+                    <label><input type="text" pattern= [0-9]{10} name= "phone" id="phone"></input> Number</label><br></br>
+                    <label><input type="email" name= "email" id="email"> Email</input></label><br></br>
+                    <label><textarea name= "comments" id="comments" rows="5" cols="30"></textarea> Comments</label><br></br>
+                    <input type="submit"></input>
+                </form>
+            </fieldset>
+            <hr></hr>
+        </section>
+
+        <section id="Projects">
+            <h2>Upcoming Projects</h2>
+            <p>
+                I am in the process of doing some research that will allow me to get started on a personal project I find very interesting. While
+                on vacation recently, it was getting dark and I had the privilege of watching some bats fly around. I took note of the fact that they
+                fly in a seemingly very chaotic manner, and remembered that they use ultrasonic echolocation to navigate in the dark and detect their surroundings. 
+                This chaotic flight behavior is actually indicative of their extreme agility and amazing sensory capabilities. With my understanding of sound, 
+                and newly gained backend skills, I started to think about creating something that could mimic this ability.
+            </p>
+            <p>
+                The first phase of my project will involve sound localization. I would like to train an AI equipped with a microphone array
+                by emitting sounds from speakers that are surrounding the mics. After succesfully being able to identify direction and approximate distance,
+                I would like to create a new iteration of the robot that incorporates 5 ultrasonic speakers and microphones. The robot will emit high 
+                frequency (30kHz-250kHz) bursts that are followed by silent intervals to analyze the reflections. The burst/silence interval will 
+                likely be dynamic, and dependenton the distance from an object and it's speed. These bursts and silences in bats tend to be anywhere 
+                from 5-10 miliseconds, to 100 milliseconds. This is extremely fast, and leads me to think about the amazing processing speed of the auditory 
+                system in bats. Not only is the speed impressive, but they are also so accurate in analyzing the reflections of the high frequency sounds they produce,
+                that they can identify something as small as human hair. AI echolocation is an incredibly fascinating prospect. The applications are immense.
+                This could allow a robot to, "see," around corners and be a failsafe for computer vision if a robot's vision is lost. By using frequencies
+                in the megahertz range, a robot could also potentially see through objects or containers, and know the contents of them - something akin
+                to x-ray vision. 
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qJOloliWvB8?si=UvwuqMErsdUxBjpp&amp;start=51" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <hr></hr>
+
+    </body>
+
+    <footer>
+        <nav>
+            <a href="#top">Top</a> |
+            <a href="#about">About</a> |
+            <a href="#resume">Resume</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#Contact">Contact</a> |
+            <a href="#Projects">Projects</a>
+        </nav>
+    </footer>
+</html>
